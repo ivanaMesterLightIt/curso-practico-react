@@ -1,17 +1,17 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Layout from "../containers/Layout";
-import Login from "../pages/Login";
-import SendEmail from "../pages/SendEmail";
-import Home from "../pages/Home";
-import NotFound from "../pages/NotFound";
-import NewPassword from "../pages/NewPassword";
-import PasswordRecovery from "../pages/PasswordRecovery";
-import Checkout from "../pages/Checkout";
-import CreateAccount from "../pages/CreateAccount";
-import MyAccount from "../pages/MyAccount";
-import Orders from "../pages/Orders";
-import '../styles/global.css';
+import Layout from "@containers/Layout";
+import Login from "@pages/Login";
+import SendEmail from "@pages/SendEmail";
+import Home from "@pages/Home";
+import NotFound from "@pages/NotFound";
+import NewPassword from "@pages/NewPassword";
+import PasswordRecovery from "@pages/PasswordRecovery";
+import Checkout from "@pages/Checkout";
+import CreateAccount from "@pages/CreateAccount";
+import MyAccount from "@pages/MyAccount";
+import Orders from "@pages/Orders";
+import '@styles/global.css';
 
 const App = () => {
     return (
